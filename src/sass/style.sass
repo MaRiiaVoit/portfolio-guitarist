@@ -4,6 +4,22 @@
 *
     box-sizing: border-box
 
+@font-face
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+@font-face
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+
+html
+    font-family: "MontserratT"
+    font-weight: regular
+
 $color-blue: #5290EA
 $color-orange: #F28B64
 
@@ -45,8 +61,12 @@ $color-orange: #F28B64
     &__list-item
         margin-right: 64px
         font-size: 18px
+        font-weight: bold
         &:last-child
             margin-right: 0px
+        a
+            text-decoration: none
+            color: black
 
 .left-wrapper
     position: relative
@@ -122,6 +142,7 @@ $color-orange: #F28B64
 .title
     font-size: 72px
     position: relative
+    font-weight: bold
     &__hr
         width: 65px
         position: absolute
@@ -142,6 +163,7 @@ $color-orange: #F28B64
         border: none
         font-size: 18px
         color: white
+        font-weight: bold
     &__icon-btn
         display: inline-flex
         align-items: center
@@ -219,6 +241,7 @@ $color-orange: #F28B64
         position: absolute
         top: 144px
         right: -45px
+        font-weight: bold
 
 .cards-item_orange
     background: $color-orange
@@ -236,6 +259,7 @@ $color-orange: #F28B64
         font-size: 18px
         span
             font-size: 48px
+            font-weight: bold
 
 .third-section
     position: relative
@@ -266,12 +290,25 @@ $color-orange: #F28B64
         position: absolute
         top: 249px
         left: 15px
-        z-index: -1 
+        z-index: -1
     &__second-elipse
         position: absolute
         right: -120px
-        top: -120px 
+        top: -120px
 
 .title__hr_top
     bottom: 75px
     width: 19.5%
+
+.footer
+    &__img
+        position: absolute
+        left: -250px
+        bottom: 0px
+    &__container
+        min-height: 272px
+        display: flex
+        align-items: center
+        justify-content: flex-end
+    &__title
+        margin-bottom: 20px
