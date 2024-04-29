@@ -527,12 +527,20 @@ html {
   font-weight: bold;
 }
 .title__hr {
-  width: 65px;
+  width: 110px;
   position: absolute;
   bottom: 0px;
   margin: 0;
   border: none;
   border-top: 1px solid black;
+}
+
+.hr__width {
+  width: 25px;
+}
+
+.title__hr__width {
+  width: 60px;
 }
 
 .buttons {
@@ -603,14 +611,14 @@ html {
   margin-right: 30px;
 }
 .second-section__cards-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 .second-section__icons-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .second-section__first-elipse {
   position: absolute;
@@ -629,7 +637,7 @@ html {
   position: relative;
   width: 360px;
   height: 360px;
-  background: #e2e2e2;
+  background: #E2E2E2;
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
@@ -716,8 +724,11 @@ html {
 }
 
 .title__hr_top {
+  bottom: 147px;
+}
+
+.title__hr_bottom {
   bottom: 75px;
-  width: 19.5%;
 }
 
 .footer__img {

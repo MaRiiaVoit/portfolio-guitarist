@@ -647,7 +647,7 @@ html {
 
 /* line 146, ../Portfolio guitarist/src/sass/style.sass */
 .title__hr {
-  width: 65px;
+  width: 110px;
   position: absolute;
   bottom: 0px;
   margin: 0;
@@ -656,11 +656,21 @@ html {
 }
 
 /* line 154, ../Portfolio guitarist/src/sass/style.sass */
+.hr__width {
+  width: 25px;
+}
+
+/* line 157, ../Portfolio guitarist/src/sass/style.sass */
+.title__hr__width {
+  width: 60px;
+}
+
+/* line 160, ../Portfolio guitarist/src/sass/style.sass */
 .buttons {
   display: inline-flex;
 }
 
-/* line 156, ../Portfolio guitarist/src/sass/style.sass */
+/* line 162, ../Portfolio guitarist/src/sass/style.sass */
 .buttons__main-btn {
   margin-right: 32px;
   width: 200px;
@@ -674,23 +684,23 @@ html {
   font-weight: bold;
 }
 
-/* line 167, ../Portfolio guitarist/src/sass/style.sass */
+/* line 173, ../Portfolio guitarist/src/sass/style.sass */
 .buttons__icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 170, ../Portfolio guitarist/src/sass/style.sass */
+/* line 176, ../Portfolio guitarist/src/sass/style.sass */
 .buttons__icon-btn img {
   margin-right: 12px;
 }
 
-/* line 172, ../Portfolio guitarist/src/sass/style.sass */
+/* line 178, ../Portfolio guitarist/src/sass/style.sass */
 .buttons__text {
   font-size: 16px;
 }
 
-/* line 175, ../Portfolio guitarist/src/sass/style.sass */
+/* line 181, ../Portfolio guitarist/src/sass/style.sass */
 .elipse {
   width: 194px;
   height: 194px;
@@ -701,13 +711,13 @@ html {
   align-items: center;
 }
 
-/* line 183, ../Portfolio guitarist/src/sass/style.sass */
+/* line 189, ../Portfolio guitarist/src/sass/style.sass */
 .elipse_dig {
   width: 282px;
   height: 282px;
 }
 
-/* line 186, ../Portfolio guitarist/src/sass/style.sass */
+/* line 192, ../Portfolio guitarist/src/sass/style.sass */
 .elipse__subtract {
   width: 129.33px;
   height: 129.33px;
@@ -715,56 +725,56 @@ html {
   border-radius: 150px;
 }
 
-/* line 191, ../Portfolio guitarist/src/sass/style.sass */
+/* line 197, ../Portfolio guitarist/src/sass/style.sass */
 .elipse__subtract_big {
   width: 188px;
   height: 188px;
 }
 
-/* line 195, ../Portfolio guitarist/src/sass/style.sass */
+/* line 201, ../Portfolio guitarist/src/sass/style.sass */
 .second-section {
   min-height: 700px;
 }
 
-/* line 197, ../Portfolio guitarist/src/sass/style.sass */
+/* line 203, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
   position: relative;
 }
 
-/* line 200, ../Portfolio guitarist/src/sass/style.sass */
+/* line 206, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 202, ../Portfolio guitarist/src/sass/style.sass */
+/* line 208, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__cards-box {
   display: inline-flex;
   margin-bottom: 25px;
 }
 
-/* line 205, ../Portfolio guitarist/src/sass/style.sass */
+/* line 211, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__cards-item {
   margin-right: 30px;
 }
 
-/* line 207, ../Portfolio guitarist/src/sass/style.sass */
+/* line 213, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__cards-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
-/* line 209, ../Portfolio guitarist/src/sass/style.sass */
+/* line 215, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 213, ../Portfolio guitarist/src/sass/style.sass */
+/* line 219, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__icons-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
-/* line 215, ../Portfolio guitarist/src/sass/style.sass */
+/* line 221, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: 80px;
@@ -772,7 +782,7 @@ html {
   z-index: -1;
 }
 
-/* line 220, ../Portfolio guitarist/src/sass/style.sass */
+/* line 226, ../Portfolio guitarist/src/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
@@ -780,23 +790,23 @@ html {
   z-index: -1;
 }
 
-/* line 226, ../Portfolio guitarist/src/sass/style.sass */
+/* line 232, ../Portfolio guitarist/src/sass/style.sass */
 .cards-item {
   position: relative;
   width: 360px;
   height: 360px;
-  background: #e2e2e2;
+  background: #E2E2E2;
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
 }
 
-/* line 234, ../Portfolio guitarist/src/sass/style.sass */
+/* line 240, ../Portfolio guitarist/src/sass/style.sass */
 .cards-item__img {
   height: 335px;
 }
 
-/* line 236, ../Portfolio guitarist/src/sass/style.sass */
+/* line 242, ../Portfolio guitarist/src/sass/style.sass */
 .cards-item__text {
   width: 280px;
   font-size: 36px;
@@ -808,40 +818,40 @@ html {
   font-weight: bold;
 }
 
-/* line 246, ../Portfolio guitarist/src/sass/style.sass */
+/* line 252, ../Portfolio guitarist/src/sass/style.sass */
 .cards-item_orange {
   background: #F28B64;
 }
 
-/* line 249, ../Portfolio guitarist/src/sass/style.sass */
+/* line 255, ../Portfolio guitarist/src/sass/style.sass */
 .cards-item_blue {
   background: #5290EA;
 }
 
-/* line 252, ../Portfolio guitarist/src/sass/style.sass */
+/* line 258, ../Portfolio guitarist/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 255, ../Portfolio guitarist/src/sass/style.sass */
+/* line 261, ../Portfolio guitarist/src/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 258, ../Portfolio guitarist/src/sass/style.sass */
+/* line 264, ../Portfolio guitarist/src/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
 }
 
-/* line 260, ../Portfolio guitarist/src/sass/style.sass */
+/* line 266, ../Portfolio guitarist/src/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
   font-weight: bold;
 }
 
-/* line 264, ../Portfolio guitarist/src/sass/style.sass */
+/* line 270, ../Portfolio guitarist/src/sass/style.sass */
 .third-section {
   position: relative;
   min-height: 640px;
@@ -850,7 +860,7 @@ html {
   z-index: 0;
 }
 
-/* line 270, ../Portfolio guitarist/src/sass/style.sass */
+/* line 276, ../Portfolio guitarist/src/sass/style.sass */
 .third-section__container {
   display: flex;
   flex-direction: row;
@@ -860,23 +870,23 @@ html {
   padding-top: 46px;
 }
 
-/* line 277, ../Portfolio guitarist/src/sass/style.sass */
+/* line 283, ../Portfolio guitarist/src/sass/style.sass */
 .third-section__right-wrapper {
   max-width: 480px;
 }
 
-/* line 279, ../Portfolio guitarist/src/sass/style.sass */
+/* line 285, ../Portfolio guitarist/src/sass/style.sass */
 .third-section__right-title {
   margin-bottom: 20px;
 }
 
-/* line 281, ../Portfolio guitarist/src/sass/style.sass */
+/* line 287, ../Portfolio guitarist/src/sass/style.sass */
 .third-section__text {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-/* line 284, ../Portfolio guitarist/src/sass/style.sass */
+/* line 290, ../Portfolio guitarist/src/sass/style.sass */
 .third-section__first-elipse {
   position: absolute;
   top: 140px;
@@ -884,7 +894,7 @@ html {
   z-index: -1;
 }
 
-/* line 289, ../Portfolio guitarist/src/sass/style.sass */
+/* line 295, ../Portfolio guitarist/src/sass/style.sass */
 .third-section__figure {
   position: absolute;
   top: 249px;
@@ -892,27 +902,31 @@ html {
   z-index: -1;
 }
 
-/* line 294, ../Portfolio guitarist/src/sass/style.sass */
+/* line 300, ../Portfolio guitarist/src/sass/style.sass */
 .third-section__second-elipse {
   position: absolute;
   right: -120px;
   top: -120px;
 }
 
-/* line 299, ../Portfolio guitarist/src/sass/style.sass */
+/* line 305, ../Portfolio guitarist/src/sass/style.sass */
 .title__hr_top {
-  bottom: 75px;
-  width: 19.5%;
+  bottom: 147px;
 }
 
-/* line 304, ../Portfolio guitarist/src/sass/style.sass */
+/* line 308, ../Portfolio guitarist/src/sass/style.sass */
+.title__hr_bottom {
+  bottom: 75px;
+}
+
+/* line 312, ../Portfolio guitarist/src/sass/style.sass */
 .footer__img {
   position: absolute;
   left: -250px;
   bottom: 0px;
 }
 
-/* line 308, ../Portfolio guitarist/src/sass/style.sass */
+/* line 316, ../Portfolio guitarist/src/sass/style.sass */
 .footer__container {
   min-height: 272px;
   display: flex;
@@ -920,7 +934,7 @@ html {
   justify-content: flex-end;
 }
 
-/* line 313, ../Portfolio guitarist/src/sass/style.sass */
+/* line 321, ../Portfolio guitarist/src/sass/style.sass */
 .footer__title {
   margin-bottom: 20px;
 }

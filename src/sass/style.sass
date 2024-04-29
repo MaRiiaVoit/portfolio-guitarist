@@ -144,12 +144,18 @@ $color-orange: #F28B64
     position: relative
     font-weight: bold
     &__hr
-        width: 65px
+        width: 110px
         position: absolute
         bottom: 0px
         margin: 0
         border: none
         border-top: 1px solid black
+
+.hr__width
+    width: 25px
+
+.title__hr__width
+    width: 60px 
 
 .buttons
     display: inline-flex
@@ -205,13 +211,13 @@ $color-orange: #F28B64
     &__cards-item
         margin-right: 30px
         &:last-child
-            margin-right: 0px
+            margin-right: 0
     &__icons-box
         display: flex
         justify-content: space-evenly
     &__icons-item
         &:last-child
-            margin-right: 0px
+            margin-right: 0
     &__first-elipse
         position: absolute
         top: 80px
@@ -227,7 +233,7 @@ $color-orange: #F28B64
     position: relative
     width: 360px
     height: 360px
-    background: #e2e2e2
+    background: #E2E2E2
     border-radius: 10px
     display: flex
     align-items: flex-end
@@ -297,8 +303,10 @@ $color-orange: #F28B64
         top: -120px
 
 .title__hr_top
+    bottom: 147px
+
+.title__hr_bottom
     bottom: 75px
-    width: 19.5%
 
 .footer
     &__img
